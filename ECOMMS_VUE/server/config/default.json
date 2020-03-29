@@ -1,0 +1,11 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "public": "../public/",
+  "paginate": {
+    "default": 100,
+    "max": 500
+  },
+
+  "nats_url":"nats://localhost:4222"
+}

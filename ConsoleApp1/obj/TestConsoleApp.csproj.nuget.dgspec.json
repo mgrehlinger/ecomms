@@ -1,0 +1,321 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/sne/Dev/TA Enterprise Communications/ConsoleApp1/TestConsoleApp.csproj": {}
+  },
+  "projects": {
+    "/Users/sne/Dev/TA Enterprise Communications/ConsoleApp1/TestConsoleApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sne/Dev/TA Enterprise Communications/ConsoleApp1/TestConsoleApp.csproj",
+        "projectName": "TestConsoleApp",
+        "projectPath": "/Users/sne/Dev/TA Enterprise Communications/ConsoleApp1/TestConsoleApp.csproj",
+        "packagesPath": "/Users/sne/.nuget/packages/",
+        "outputPath": "/Users/sne/Dev/TA Enterprise Communications/ConsoleApp1/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/sne/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Client/ECOMMS_Client.csproj": {
+                "projectPath": "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Client/ECOMMS_Client.csproj"
+              },
+              "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Manager/ECOMMS_Manager.csproj": {
+                "projectPath": "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Manager/ECOMMS_Manager.csproj"
+              },
+              "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Participant/ECOMMS_Participant.csproj": {
+                "projectPath": "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Participant/ECOMMS_Participant.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Client/ECOMMS_Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Client/ECOMMS_Client.csproj",
+        "projectName": "ECOMMS_Client",
+        "projectPath": "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Client/ECOMMS_Client.csproj",
+        "packagesPath": "/Users/sne/.nuget/packages/",
+        "outputPath": "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Client/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/sne/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Entity/ECOMMS_Entity.csproj": {
+                "projectPath": "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Entity/ECOMMS_Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Entity/ECOMMS_Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Entity/ECOMMS_Entity.csproj",
+        "projectName": "ECOMMS_Entity",
+        "projectPath": "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Entity/ECOMMS_Entity.csproj",
+        "packagesPath": "/Users/sne/.nuget/packages/",
+        "outputPath": "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Entity/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/sne/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NATS.Client": {
+              "target": "Package",
+              "version": "[0.8.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Manager/ECOMMS_Manager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Manager/ECOMMS_Manager.csproj",
+        "projectName": "ECOMMS_Manager",
+        "projectPath": "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Manager/ECOMMS_Manager.csproj",
+        "packagesPath": "/Users/sne/.nuget/packages/",
+        "outputPath": "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Manager/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/sne/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Client/ECOMMS_Client.csproj": {
+                "projectPath": "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Client/ECOMMS_Client.csproj"
+              },
+              "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Entity/ECOMMS_Entity.csproj": {
+                "projectPath": "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Entity/ECOMMS_Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Participant/ECOMMS_Participant.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Participant/ECOMMS_Participant.csproj",
+        "projectName": "ECOMMS_Participant",
+        "projectPath": "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Participant/ECOMMS_Participant.csproj",
+        "packagesPath": "/Users/sne/.nuget/packages/",
+        "outputPath": "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Participant/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/sne/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Entity/ECOMMS_Entity.csproj": {
+                "projectPath": "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Entity/ECOMMS_Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NATS.Client": {
+              "target": "Package",
+              "version": "[0.8.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
