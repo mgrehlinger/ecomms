@@ -95,6 +95,15 @@ namespace ECOMMS_Client
                     case "Service":
                         role = Role.Service;
                         break;
+                    case "Equipment":
+                        role = Role.Equipment;
+                        break;
+                    case "Sensor":
+                        role = Role.Sensor;
+                        break;
+                    default:
+                        role = Role.None;
+                        break;
                 }
             });
 

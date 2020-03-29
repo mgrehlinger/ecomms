@@ -1,5 +1,5 @@
-﻿//#define demo_main
-#define demo_2
+﻿#define demo_main
+//#define demo_2
 
 using ECOMMS_Client;
 using ECOMMS_Entity;
@@ -256,8 +256,10 @@ namespace ConsoleApp1
                     case "CLIENTS_CHANGED":
                         Console.WriteLine(
                             "there are " +
-                            enterpriseManager.clients.Where((i) => i.role == Role.Instrument).Count() +
-                            " instruments online"
+                            enterpriseManager.clients.Where((i) => i.role == Role.Sensor).Count() +
+                            " sensors online and " +
+                            enterpriseManager.clients.Count() +
+                            " clients"
                         );
                         break;
                 }
@@ -304,6 +306,24 @@ namespace ConsoleApp1
                             client.addStatusListener((name, data) =>
                             {
                                 Console.WriteLine("status listener: {0}", name);
+                            });
+                        }
+
+                        if(client.role == Role.Sensor)
+                        {
+
+                            Console.WriteLine(client.name + " SENSOR CONNECTED");
+
+                            //listen for run state changes
+                            client.addObserver(new ObserverAdapterEx((anobject, ahint, data) =>
+                            {
+                                Console.WriteLine((ahint as string));
+                            }));
+
+                            //add a status listener
+                            client.addStatusListener((name, bytes) =>
+                            {
+                                Console.WriteLine("status listener: {0}:{1}", name, Encoding.UTF8.GetString(bytes, 0, bytes.Length));
                             });
                         }
                         break;

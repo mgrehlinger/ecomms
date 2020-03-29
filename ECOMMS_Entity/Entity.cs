@@ -84,7 +84,8 @@ namespace ECOMMS_Entity
         None = 0,
         Instrument,
         Equipment,
-        Service
+        Service,
+        Sensor
     }
 
     public enum Type
@@ -102,7 +103,10 @@ namespace ECOMMS_Entity
         //service types
         Address,
         PersistentStore,
-        Calculator
+        Calculator,
+
+        //sensor types
+        Temperature
     }
 
     public enum SubType
