@@ -1,0 +1,14 @@
+/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Manager/bin/Debug/netstandard2.0/ECOMMS_Manager.deps.json
+/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Manager/bin/Debug/netstandard2.0/ECOMMS_Manager.dll
+/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Manager/bin/Debug/netstandard2.0/ECOMMS_Manager.pdb
+/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Manager/bin/Debug/netstandard2.0/ECOMMS_Client.dll
+/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Manager/bin/Debug/netstandard2.0/ECOMMS_Entity.dll
+/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Manager/bin/Debug/netstandard2.0/ECOMMS_Client.pdb
+/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Manager/bin/Debug/netstandard2.0/ECOMMS_Entity.pdb
+/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Manager/obj/Debug/netstandard2.0/ECOMMS_Manager.csprojAssemblyReference.cache
+/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Manager/obj/Debug/netstandard2.0/ECOMMS_Manager.csproj.CoreCompileInputs.cache
+/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Manager/obj/Debug/netstandard2.0/ECOMMS_Manager.AssemblyInfoInputs.cache
+/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Manager/obj/Debug/netstandard2.0/ECOMMS_Manager.AssemblyInfo.cs
+/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Manager/obj/Debug/netstandard2.0/ECOMMS_Manager.csproj.CopyComplete
+/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Manager/obj/Debug/netstandard2.0/ECOMMS_Manager.dll
+/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Manager/obj/Debug/netstandard2.0/ECOMMS_Manager.pdb

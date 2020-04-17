@@ -244,11 +244,11 @@ namespace ECOMMS_Entity
 
                 _success = true;
             }
-            catch (NATSNoServersException nse)
+            catch (NATSNoServersException)
             {
                 _success = false;
             }
-            catch(NATSConnectionException ce)
+            catch(NATSConnectionException)
             {
                 _success = false;
             }

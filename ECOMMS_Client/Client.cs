@@ -18,6 +18,9 @@ namespace ECOMMS_Client
         void doAction(string what, IResponseCompletion callbacks);
         void statusReceived(string name, byte[] data);
         void addStatusListener(Action<string, byte[]> listener);
+        void addStatusListener(object key, Action<string, byte[]> listener);
+        void removeListener(object key);
+
         //indicate online/offline by listening to heartbeat
         bool online { get; set; }
         //void on(string anEventString, Action<string> callback);
@@ -257,9 +260,23 @@ namespace ECOMMS_Client
         {
             request("action." + what, Encoding.UTF8.GetBytes(what), callbacks);
         }
+
         public void addStatusListener(Action<string, byte[]> listener)
         {
             _statusListners.Add(listener);
+        }
+
+        Dictionary<object, Action<string, byte[]>> _boundListeners = new Dictionary<object, Action<string, byte[]>>();
+        public void addStatusListener(object key, Action<string, byte[]> listener)
+        {
+            _boundListeners[key] = listener;
+            _statusListners.Add(listener);
+        }
+
+        public void removeListener(object key)
+        {
+            Action<string, byte[]> listener = _boundListeners[key];
+            _statusListners.Remove(listener);
         }
     }
 

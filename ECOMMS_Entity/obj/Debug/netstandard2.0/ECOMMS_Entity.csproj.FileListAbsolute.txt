@@ -1,0 +1,8 @@
+/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Entity/bin/Debug/netstandard2.0/ECOMMS_Entity.deps.json
+/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Entity/bin/Debug/netstandard2.0/ECOMMS_Entity.dll
+/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Entity/bin/Debug/netstandard2.0/ECOMMS_Entity.pdb
+/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Entity/obj/Debug/netstandard2.0/ECOMMS_Entity.csproj.CoreCompileInputs.cache
+/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Entity/obj/Debug/netstandard2.0/ECOMMS_Entity.AssemblyInfoInputs.cache
+/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Entity/obj/Debug/netstandard2.0/ECOMMS_Entity.AssemblyInfo.cs
+/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Entity/obj/Debug/netstandard2.0/ECOMMS_Entity.dll
+/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Entity/obj/Debug/netstandard2.0/ECOMMS_Entity.pdb
