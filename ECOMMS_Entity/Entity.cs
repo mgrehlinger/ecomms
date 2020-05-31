@@ -85,7 +85,9 @@ namespace ECOMMS_Entity
         Instrument,
         Equipment,
         Service,
-        Sensor
+        Sensor,
+
+        Custom = 99
     }
 
     public enum Type
@@ -106,7 +108,10 @@ namespace ECOMMS_Entity
         Calculator,
 
         //sensor types
-        Temperature
+        Temperature,
+
+        //Custom
+        Custom = 99
     }
 
     public enum SubType
@@ -116,9 +121,12 @@ namespace ECOMMS_Entity
         //thermal instrument sub types
         DSC,
         TGA,
-        SDT
+        SDT,
 
         //rheology instrument sub types
+
+        //custom
+        Custom = 99
     }
     #endregion
 
@@ -502,7 +510,12 @@ namespace ECOMMS_Entity
 
         public void notify(string hint)
         {
-            foreach (IObserver o in _observers)
+            //NOTIFYING CAN AND OBSERVERS
+            //NOTIFY COPY
+            IObserver[] observers = new IObserver[_observers.Count];
+
+            _observers.CopyTo(observers, 0);
+            foreach (IObserver o in observers)
                 o.update(this, hint);
         }
 

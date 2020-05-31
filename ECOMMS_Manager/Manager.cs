@@ -52,7 +52,7 @@ namespace ECOMMS_Manager
                     client.init();
 
                     //NEED TO MAKE INIT BLOCK UNTIL ITS DONE
-                    Thread.Sleep(2000);
+                    //Thread.Sleep(2000);
 
                     //use this base client to find out the role of the client that
                     //just connected
@@ -61,39 +61,47 @@ namespace ECOMMS_Manager
                     //and add it
                     //if we have a factory instance then use it otherwise
                     //create a base class entity
-                    if(client.role == Role.Instrument && _clientFactory == null)
-                    {
-                        var instrumentClient = new InstrumentClient(heartbeat, client.type);
-                        instrumentClient.connect(server);
-                        instrumentClient.init();
-
-                        client = instrumentClient;
-                    }
-                    else if(_clientFactory != null)
-                    {
-                        IClient tempClient = _clientFactory.getClientFor(heartbeat, client.role, client.type, SubType.None);
-                        if (tempClient  != null)
-                        {
-                            tempClient.connect(server);
-                            tempClient.init();
-                            client = tempClient;
-                        }
-                    }
 
                     _clients.Add(client);
 
                     client.addObserver(new ObserverAdapter((o, h) =>
                     {
-                        if ((h as string) == "ONLINE_CHANGED")
-                            if (!client.online)
-                            {
-                                _clients.Remove(client);
-                                notify("CLIENTS_CHANGED");
-                            }
-                    }));
+                        switch(h as string)
+                        {
+                            case "INITIALIZED":
+                                if (client.role == Role.Instrument && _clientFactory == null)
+                                {
+                                    var instrumentClient = new InstrumentClient(heartbeat, client.type);
+                                    instrumentClient.connect(server);
+                                    instrumentClient.init();
 
-                    notify("CLIENTS_CHANGED");
-                    notify("CONNECTED", client);
+                                    client = instrumentClient;
+                                }
+                                else if (_clientFactory != null)
+                                {
+                                    IClient tempClient = _clientFactory.getClientFor(heartbeat, client.role, client.type, SubType.None);
+                                    if (tempClient != null)
+                                    {
+                                        tempClient.connect(server);
+                                        tempClient.init();
+                                        client = tempClient;
+                                    }
+                                }
+
+                                notify("CLIENTS_CHANGED");
+                                notify("CONNECTED", client);
+
+                                break;
+
+                            case "ONLINE_CHANGED":
+                                if (!client.online)
+                                {
+                                    _clients.Remove(client);
+                                    notify("CLIENTS_CHANGED");
+                                }
+                                break;
+                        }
+                    }));
                 }
             });
         }

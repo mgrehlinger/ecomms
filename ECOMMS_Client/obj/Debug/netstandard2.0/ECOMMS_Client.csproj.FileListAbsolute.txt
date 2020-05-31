@@ -4,9 +4,9 @@
 /Users/sne/Dev/TA Enterprise Communications/ECOMMS_Client/bin/Debug/netstandard2.0/ECOMMS_Entity.dll
 /Users/sne/Dev/TA Enterprise Communications/ECOMMS_Client/bin/Debug/netstandard2.0/ECOMMS_Entity.pdb
 /Users/sne/Dev/TA Enterprise Communications/ECOMMS_Client/obj/Debug/netstandard2.0/ECOMMS_Client.csprojAssemblyReference.cache
-/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Client/obj/Debug/netstandard2.0/ECOMMS_Client.csproj.CoreCompileInputs.cache
 /Users/sne/Dev/TA Enterprise Communications/ECOMMS_Client/obj/Debug/netstandard2.0/ECOMMS_Client.AssemblyInfoInputs.cache
 /Users/sne/Dev/TA Enterprise Communications/ECOMMS_Client/obj/Debug/netstandard2.0/ECOMMS_Client.AssemblyInfo.cs
+/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Client/obj/Debug/netstandard2.0/ECOMMS_Client.csproj.CoreCompileInputs.cache
 /Users/sne/Dev/TA Enterprise Communications/ECOMMS_Client/obj/Debug/netstandard2.0/ECOMMS_Client.csproj.CopyComplete
 /Users/sne/Dev/TA Enterprise Communications/ECOMMS_Client/obj/Debug/netstandard2.0/ECOMMS_Client.dll
 /Users/sne/Dev/TA Enterprise Communications/ECOMMS_Client/obj/Debug/netstandard2.0/ECOMMS_Client.pdb

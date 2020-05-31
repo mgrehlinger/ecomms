@@ -1,18 +1,12 @@
 ﻿<Properties StartupConfiguration="{41FFE33A-1BBD-4473-9FA1-E235CFAC5EBB}|Default">
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="ECOMMS_Entity/Entity.cs" Line="525" Column="21" />
-      <File FileName="ECOMMS_Client/Client.cs" Line="285" Column="6" />
-      <File FileName="ECOMMS_Participant/Participant.cs" />
-      <File FileName="ConsoleApp1/Program.cs" />
+      <File FileName="ConsoleApp1/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ECOMMS" expanded="True">
-            <Node name="ECOMMS_Client" expanded="True">
-              <Node name="Client.cs" selected="True" />
-            </Node>
+          <Node name="ECOMMS" expanded="True" selected="True">
             <Node name="TestConsoleApp" expanded="True" />
           </Node>
         </State>

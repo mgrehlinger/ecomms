@@ -45,6 +45,25 @@ namespace ECOMMS_Client
         bool _online = true;
         List<Action<string, byte[]>> _statusListners = new List<Action<string, byte[]>>();
 
+        bool _isInitialized = false;
+        int _propertiesInitialized = 0;
+        int _propertiesInitializedTarget = 1 | 2 | 4 | 8;
+        private void propertyInitialized(int which)
+        {
+            lock(this)
+            {
+                _propertiesInitialized |= which;
+                if (!_isInitialized)
+                {
+                    if (_propertiesInitializedTarget == _propertiesInitialized)
+                    {
+                        _isInitialized = true;
+                        notify("INITIALIZED");
+                    }
+                }
+            }
+        }
+
         public bool online
         {
             get
@@ -85,6 +104,7 @@ namespace ECOMMS_Client
             request("get", "name", (s) =>
             {
                 name = s;
+                propertyInitialized(1);
             });
 
             //get the partipants role
@@ -108,6 +128,8 @@ namespace ECOMMS_Client
                         role = Role.None;
                         break;
                 }
+
+                propertyInitialized(2);
             });
 
             request("get", "type", (s) =>
@@ -120,7 +142,24 @@ namespace ECOMMS_Client
                     case "Thermal":
                         type = ECOMMS_Entity.Type.Thermal;
                         break;
+                    case "PersistentStore":
+                        type = ECOMMS_Entity.Type.PersistentStore;
+                        break;
+                    case "Address":
+                        type = ECOMMS_Entity.Type.Address;
+                        break;
+                    case "Balance":
+                        type = ECOMMS_Entity.Type.Balance;
+                        break;
+                    case "Calculator":
+                        type = ECOMMS_Entity.Type.Calculator;
+                        break;
+                    case "Temperature":
+                        type = ECOMMS_Entity.Type.Temperature;
+                        break;
                 }
+
+                propertyInitialized(4);
             });
 
             request("get", "subtype", (s) =>
@@ -131,6 +170,8 @@ namespace ECOMMS_Client
                         subType = (SubType)Enum.Parse(typeof(SubType), s);
                         break;
                 }
+
+                propertyInitialized(8);
             });
 
             //get the participantw type
