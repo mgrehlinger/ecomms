@@ -239,6 +239,8 @@ Provide C#, C/C++ and Python library to support client as well as Instrument sid
 # discoverable, addressable, and identifiable!
 
 Discoverable, that is, what instruments, lab equipment, and ( software ) services, are available to do my bidding!
+Addressable, "that balance over there!".
+Identifiable, "what can you do for me?"
 
 
 # Can you hear me now?
