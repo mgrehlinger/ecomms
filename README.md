@@ -67,37 +67,6 @@ reader, and analytical instrument, or for a software service that listens for al
 system. The three tenets of good enterprise communications are discoverability, identification, and addressability. ECOMMS provide these tenets
 and more.
 
-Why we need it?
-
-```
-Enable creating custom workflows
-Enable enterprise communications to move from point to point to a enterprise bus architecture (1 Instrument to N clients, N Instruments to 1
-client, N Instruments to N clients)
-Common communications and protocol for ease of development and maintenance.
-Smart diagnostics (by allowing IoT devices communicate on the bus)
-Ease of 3rd party tool or services integration
-Ease to integrate new Instruments ( from M&A or Competition)
-Provide a platform that supports common for all products
-Enable bi-directional communication
-Enable distributed deployment scenarios
-```
-What it will do above and beyond what a message broker (NATs server and client or MQTT client) already does out of the box.?
-
-```
-Ecomms is part of the TA common platform and should provide the following
-Protocol that satisfies the needs of all thermal, rheology, rubber, ESG and Flash Instruments
-Security/encryption/authentication/authorization
-Instrument and service discoverability and identification
-Asynchronous and Synchronous communication infrastructure
-Message logging/audit trail
-Message validation
-Message routing
-Endpoint failure notification
-Message re-try and error handling and notification
-Not make any assumptions or tie to a specific message broker
-Provide C#, C/C++ and Python library to support client as well as Instrument side driver development
-```
-
 # discoverable, addressable, and identifiable!
 
 Discoverable, that is, what instruments, lab equipment, and ( software ) services, are available to do my bidding!
