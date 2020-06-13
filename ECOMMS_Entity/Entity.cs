@@ -183,6 +183,8 @@ namespace ECOMMS_Entity
         String id { get; }
         String name { get; }
         void registerHeartbeatListener(EventHandler<MsgHandlerEventArgs> action);
+
+        void removeAllObservers();
     }
     #endregion
 
@@ -220,6 +222,12 @@ namespace ECOMMS_Entity
             name = aname;
         }
         #endregion
+
+        public void removeAllObservers()
+        {
+            _observers.Clear();
+            _observersex.Clear();
+        }
 
         #region connect and init
         /// <summary>

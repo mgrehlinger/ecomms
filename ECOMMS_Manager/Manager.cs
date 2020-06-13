@@ -51,9 +51,6 @@ namespace ECOMMS_Manager
                     client.connect(server);
                     client.init();
 
-                    //NEED TO MAKE INIT BLOCK UNTIL ITS DONE
-                    //Thread.Sleep(2000);
-
                     //use this base client to find out the role of the client that
                     //just connected
 
@@ -98,6 +95,9 @@ namespace ECOMMS_Manager
                                 {
                                     _clients.Remove(client);
                                     notify("CLIENTS_CHANGED");
+
+                                    client.removeAllObservers();
+                                    client.removeAllListeners();
                                 }
                                 break;
                         }
