@@ -53,144 +53,6 @@ These pages describe an architecture and framework that provides enterprise visi
 instruments, lab equipment like balances and bar code readers, and software services over a common
 communications pub/sub bus using nats.io.
 ```
-```
-Visit the TacoCo package page for class documentation of the TA Enterprise Communications nuget
-package which is the C# reference library and framework.
-```
-```
-News:
-```
-```
-https://nats.io/blog/nats-security-update/ <---- NEW
-```
-```
-https://nats.io/tags/microservices/
-```
-```
-https://hackernoon.com/introducing-ngs-d3d216d0daef
-```
-```
-https://bravenewgeek.com/tag/kafka/
-```
-```
-https://nats.io/blog/no-technology-is-an-island/
-```
-## TAG: KAFKA
-
-```
-Introducing Liftbridge: Lightweight, Fault-Tolerant Message Streams
-```
-```
-https://github.com/liftbridge-io/liftbridge
-```
-```
-Some references:
-```
-```
-nats.io documentation
-```
-```
-NATS for Modern Messaging and Microservices ( NEW great relevant case study and security question
-at end of presentation )
-```
-```
-NATS: A Central Nervous System for IoT Messaging by Larry McQueary
-```
-```
-NATS for Modern Messaging and Microservices
-```
-```
-https://msdn.microsoft.com/en-us/magazine/mt842506.aspx ( .NET Standard, great article... )
-```
-```
-ECOMMS C# libraries source solution ( WIP ):
-```
-```
-TA Enterprise Communications
-```
-```
-Prebuilt ECOMMS C# libraries:
-```
-```
-svn://10.53.240.28/Trios/users/sne/ECOMMS_PREBUILT_LIBRARIES_C#
-```
-```
-Example instrument shim ( WIP ):
-```
-```
-( incorporated protocol buffers into shim )
-```
-```
-svn://10.53.240.28/Trios/users/sne/ECOMMS_DSC_SHIM
-```
-```
-Service Participant example:
-```
-```
-svn://10.53.240.28/Trios/users/sne/ECOMMS_SERVICE_DEMO
-```
-## Featured Pages
-
-```
-Overview
-```
-## Popular Topics
-
-```
-ecomms
-featured
-meeting-notes
-```
-## Recently Updated Pages
-
-```
-Overview
-Sep 13, 2019 • updated by St
-ephen Eshelman • view
-change
-Client Process
-Sep 09, 2019 • created by St
-ephen Eshelman
-Participant Process
-Sep 09, 2019 • created by St
-ephen Eshelman
-Manager
-Sep 06, 2019 • updated by St
-ephen Eshelman • view
-change
-Enhancements
-Sep 06, 2019 • updated by St
-ephen Eshelman • view
-change
-```
-## Search this
-
-## documentation
-
-
-Enterprise Application example ( WIP ):
-
-( incorporated protocol buffers into example )
-
-svn://10.53.240.28/Trios/users/sne/ECOMMS_APP
-
-Protocol Buffers example utilizing ECOMMS:
-
-svn://10.53.240.28/Trios/users/sne/ECOMMS_PROTOBUF_EXAMPLE
-
-Protocol Buffers explained:
-
-https://developers.google.com/protocol-buffers/
-
-To run demo code:
-
-```
-download nats server from here
-start the server ( gnatsd.exe -D -V )
-download the demo and ( WIP ) class libraries from TA Enterprise Communications
-build the solution
-run the example console app
-```
 
 # Overview
 
@@ -205,40 +67,11 @@ reader, and analytical instrument, or for a software service that listens for al
 system. The three tenets of good enterprise communications are discoverability, identification, and addressability. ECOMMS provide these tenets
 and more.
 
-Why we need it?
-
-```
-Enable creating custom workflows
-Enable enterprise communications to move from point to point to a enterprise bus architecture (1 Instrument to N clients, N Instruments to 1
-client, N Instruments to N clients)
-Common communications and protocol for ease of development and maintenance.
-Smart diagnostics (by allowing IoT devices communicate on the bus)
-Ease of 3rd party tool or services integration
-Ease to integrate new Instruments ( from M&A or Competition)
-Provide a platform that supports common for all products
-Enable bi-directional communication
-Enable distributed deployment scenarios
-```
-What it will do above and beyond what a message broker (NATs server and client or MQTT client) already does out of the box.?
-
-```
-Ecomms is part of the TA common platform and should provide the following
-Protocol that satisfies the needs of all thermal, rheology, rubber, ESG and Flash Instruments
-Security/encryption/authentication/authorization
-Instrument and service discoverability and identification
-Asynchronous and Synchronous communication infrastructure
-Message logging/audit trail
-Message validation
-Message routing
-Endpoint failure notification
-Message re-try and error handling and notification
-Not make any assumptions or tie to a specific message broker
-Provide C#, C/C++ and Python library to support client as well as Instrument side driver development
-```
-
 # discoverable, addressable, and identifiable!
 
 Discoverable, that is, what instruments, lab equipment, and ( software ) services, are available to do my bidding!
+Addressable, "that balance over there!".
+Identifiable, "what can you do for me?"
 
 
 # Can you hear me now?
