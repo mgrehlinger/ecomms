@@ -19,3 +19,24 @@
 /Users/sne/Dev/TA Enterprise Communications/ConsoleApp1/obj/Debug/netcoreapp2.1/TestConsoleApp.dll
 /Users/sne/Dev/TA Enterprise Communications/ConsoleApp1/obj/Debug/netcoreapp2.1/TestConsoleApp.pdb
 /Users/sne/Dev/TA Enterprise Communications/ConsoleApp1/obj/Debug/netcoreapp2.1/TestConsoleApp.genruntimeconfig.cache
+D:\dev\github\ecomms\ConsoleApp1\bin\Debug\netcoreapp2.1\TestConsoleApp.deps.json
+D:\dev\github\ecomms\ConsoleApp1\bin\Debug\netcoreapp2.1\TestConsoleApp.runtimeconfig.json
+D:\dev\github\ecomms\ConsoleApp1\bin\Debug\netcoreapp2.1\TestConsoleApp.runtimeconfig.dev.json
+D:\dev\github\ecomms\ConsoleApp1\bin\Debug\netcoreapp2.1\TestConsoleApp.dll
+D:\dev\github\ecomms\ConsoleApp1\bin\Debug\netcoreapp2.1\TestConsoleApp.pdb
+D:\dev\github\ecomms\ConsoleApp1\bin\Debug\netcoreapp2.1\ECOMMS_Client.dll
+D:\dev\github\ecomms\ConsoleApp1\bin\Debug\netcoreapp2.1\ECOMMS_Entity.dll
+D:\dev\github\ecomms\ConsoleApp1\bin\Debug\netcoreapp2.1\ECOMMS_Manager.dll
+D:\dev\github\ecomms\ConsoleApp1\bin\Debug\netcoreapp2.1\ECOMMS_Participant.dll
+D:\dev\github\ecomms\ConsoleApp1\bin\Debug\netcoreapp2.1\ECOMMS_Client.pdb
+D:\dev\github\ecomms\ConsoleApp1\bin\Debug\netcoreapp2.1\ECOMMS_Manager.pdb
+D:\dev\github\ecomms\ConsoleApp1\bin\Debug\netcoreapp2.1\ECOMMS_Participant.pdb
+D:\dev\github\ecomms\ConsoleApp1\bin\Debug\netcoreapp2.1\ECOMMS_Entity.pdb
+D:\dev\github\ecomms\ConsoleApp1\obj\Debug\netcoreapp2.1\TestConsoleApp.csprojAssemblyReference.cache
+D:\dev\github\ecomms\ConsoleApp1\obj\Debug\netcoreapp2.1\TestConsoleApp.AssemblyInfoInputs.cache
+D:\dev\github\ecomms\ConsoleApp1\obj\Debug\netcoreapp2.1\TestConsoleApp.AssemblyInfo.cs
+D:\dev\github\ecomms\ConsoleApp1\obj\Debug\netcoreapp2.1\TestConsoleApp.csproj.CoreCompileInputs.cache
+D:\dev\github\ecomms\ConsoleApp1\obj\Debug\netcoreapp2.1\TestConsoleApp.csproj.CopyComplete
+D:\dev\github\ecomms\ConsoleApp1\obj\Debug\netcoreapp2.1\TestConsoleApp.dll
+D:\dev\github\ecomms\ConsoleApp1\obj\Debug\netcoreapp2.1\TestConsoleApp.pdb
+D:\dev\github\ecomms\ConsoleApp1\obj\Debug\netcoreapp2.1\TestConsoleApp.genruntimeconfig.cache

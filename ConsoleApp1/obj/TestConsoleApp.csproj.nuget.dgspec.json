@@ -1,41 +1,46 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sne/Dev/TA Enterprise Communications/ConsoleApp1/TestConsoleApp.csproj": {}
+    "D:\\dev\\github\\ecomms\\ConsoleApp1\\TestConsoleApp.csproj": {}
   },
   "projects": {
-    "/Users/sne/Dev/TA Enterprise Communications/ConsoleApp1/TestConsoleApp.csproj": {
+    "D:\\dev\\github\\ecomms\\ConsoleApp1\\TestConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sne/Dev/TA Enterprise Communications/ConsoleApp1/TestConsoleApp.csproj",
+        "projectUniqueName": "D:\\dev\\github\\ecomms\\ConsoleApp1\\TestConsoleApp.csproj",
         "projectName": "TestConsoleApp",
-        "projectPath": "/Users/sne/Dev/TA Enterprise Communications/ConsoleApp1/TestConsoleApp.csproj",
-        "packagesPath": "/Users/sne/.nuget/packages/",
-        "outputPath": "/Users/sne/Dev/TA Enterprise Communications/ConsoleApp1/obj/",
+        "projectPath": "D:\\dev\\github\\ecomms\\ConsoleApp1\\TestConsoleApp.csproj",
+        "packagesPath": "C:\\Users\\objec\\.nuget\\packages\\",
+        "outputPath": "D:\\dev\\github\\ecomms\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/sne/.config/NuGet/NuGet.Config"
+          "C:\\Users\\objec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\10.53.2.11\\hearth\\TacoCo\\NuGet": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Client/ECOMMS_Client.csproj": {
-                "projectPath": "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Client/ECOMMS_Client.csproj"
+              "D:\\dev\\github\\ecomms\\ECOMMS_Client\\ECOMMS_Client.csproj": {
+                "projectPath": "D:\\dev\\github\\ecomms\\ECOMMS_Client\\ECOMMS_Client.csproj"
               },
-              "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Manager/ECOMMS_Manager.csproj": {
-                "projectPath": "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Manager/ECOMMS_Manager.csproj"
+              "D:\\dev\\github\\ecomms\\ECOMMS_Manager\\ECOMMS_Manager.csproj": {
+                "projectPath": "D:\\dev\\github\\ecomms\\ECOMMS_Manager\\ECOMMS_Manager.csproj"
               },
-              "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Participant/ECOMMS_Participant.csproj": {
-                "projectPath": "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Participant/ECOMMS_Participant.csproj"
+              "D:\\dev\\github\\ecomms\\ECOMMS_Participant\\ECOMMS_Participant.csproj": {
+                "projectPath": "D:\\dev\\github\\ecomms\\ECOMMS_Participant\\ECOMMS_Participant.csproj"
               }
             }
           }
@@ -66,36 +71,41 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Client/ECOMMS_Client.csproj": {
+    "D:\\dev\\github\\ecomms\\ECOMMS_Client\\ECOMMS_Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Client/ECOMMS_Client.csproj",
+        "projectUniqueName": "D:\\dev\\github\\ecomms\\ECOMMS_Client\\ECOMMS_Client.csproj",
         "projectName": "ECOMMS_Client",
-        "projectPath": "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Client/ECOMMS_Client.csproj",
-        "packagesPath": "/Users/sne/.nuget/packages/",
-        "outputPath": "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Client/obj/",
+        "projectPath": "D:\\dev\\github\\ecomms\\ECOMMS_Client\\ECOMMS_Client.csproj",
+        "packagesPath": "C:\\Users\\objec\\.nuget\\packages\\",
+        "outputPath": "D:\\dev\\github\\ecomms\\ECOMMS_Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/sne/.config/NuGet/NuGet.Config"
+          "C:\\Users\\objec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\10.53.2.11\\hearth\\TacoCo\\NuGet": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Entity/ECOMMS_Entity.csproj": {
-                "projectPath": "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Entity/ECOMMS_Entity.csproj"
+              "D:\\dev\\github\\ecomms\\ECOMMS_Entity\\ECOMMS_Entity.csproj": {
+                "projectPath": "D:\\dev\\github\\ecomms\\ECOMMS_Entity\\ECOMMS_Entity.csproj"
               }
             }
           }
@@ -126,29 +136,34 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Entity/ECOMMS_Entity.csproj": {
+    "D:\\dev\\github\\ecomms\\ECOMMS_Entity\\ECOMMS_Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Entity/ECOMMS_Entity.csproj",
+        "projectUniqueName": "D:\\dev\\github\\ecomms\\ECOMMS_Entity\\ECOMMS_Entity.csproj",
         "projectName": "ECOMMS_Entity",
-        "projectPath": "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Entity/ECOMMS_Entity.csproj",
-        "packagesPath": "/Users/sne/.nuget/packages/",
-        "outputPath": "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Entity/obj/",
+        "projectPath": "D:\\dev\\github\\ecomms\\ECOMMS_Entity\\ECOMMS_Entity.csproj",
+        "packagesPath": "C:\\Users\\objec\\.nuget\\packages\\",
+        "outputPath": "D:\\dev\\github\\ecomms\\ECOMMS_Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/sne/.config/NuGet/NuGet.Config"
+          "C:\\Users\\objec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\10.53.2.11\\hearth\\TacoCo\\NuGet": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -186,39 +201,44 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Manager/ECOMMS_Manager.csproj": {
+    "D:\\dev\\github\\ecomms\\ECOMMS_Manager\\ECOMMS_Manager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Manager/ECOMMS_Manager.csproj",
+        "projectUniqueName": "D:\\dev\\github\\ecomms\\ECOMMS_Manager\\ECOMMS_Manager.csproj",
         "projectName": "ECOMMS_Manager",
-        "projectPath": "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Manager/ECOMMS_Manager.csproj",
-        "packagesPath": "/Users/sne/.nuget/packages/",
-        "outputPath": "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Manager/obj/",
+        "projectPath": "D:\\dev\\github\\ecomms\\ECOMMS_Manager\\ECOMMS_Manager.csproj",
+        "packagesPath": "C:\\Users\\objec\\.nuget\\packages\\",
+        "outputPath": "D:\\dev\\github\\ecomms\\ECOMMS_Manager\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/sne/.config/NuGet/NuGet.Config"
+          "C:\\Users\\objec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\10.53.2.11\\hearth\\TacoCo\\NuGet": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Client/ECOMMS_Client.csproj": {
-                "projectPath": "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Client/ECOMMS_Client.csproj"
+              "D:\\dev\\github\\ecomms\\ECOMMS_Client\\ECOMMS_Client.csproj": {
+                "projectPath": "D:\\dev\\github\\ecomms\\ECOMMS_Client\\ECOMMS_Client.csproj"
               },
-              "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Entity/ECOMMS_Entity.csproj": {
-                "projectPath": "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Entity/ECOMMS_Entity.csproj"
+              "D:\\dev\\github\\ecomms\\ECOMMS_Entity\\ECOMMS_Entity.csproj": {
+                "projectPath": "D:\\dev\\github\\ecomms\\ECOMMS_Entity\\ECOMMS_Entity.csproj"
               }
             }
           }
@@ -249,36 +269,41 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Participant/ECOMMS_Participant.csproj": {
+    "D:\\dev\\github\\ecomms\\ECOMMS_Participant\\ECOMMS_Participant.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Participant/ECOMMS_Participant.csproj",
+        "projectUniqueName": "D:\\dev\\github\\ecomms\\ECOMMS_Participant\\ECOMMS_Participant.csproj",
         "projectName": "ECOMMS_Participant",
-        "projectPath": "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Participant/ECOMMS_Participant.csproj",
-        "packagesPath": "/Users/sne/.nuget/packages/",
-        "outputPath": "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Participant/obj/",
+        "projectPath": "D:\\dev\\github\\ecomms\\ECOMMS_Participant\\ECOMMS_Participant.csproj",
+        "packagesPath": "C:\\Users\\objec\\.nuget\\packages\\",
+        "outputPath": "D:\\dev\\github\\ecomms\\ECOMMS_Participant\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/sne/.config/NuGet/NuGet.Config"
+          "C:\\Users\\objec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\10.53.2.11\\hearth\\TacoCo\\NuGet": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Entity/ECOMMS_Entity.csproj": {
-                "projectPath": "/Users/sne/Dev/TA Enterprise Communications/ECOMMS_Entity/ECOMMS_Entity.csproj"
+              "D:\\dev\\github\\ecomms\\ECOMMS_Entity\\ECOMMS_Entity.csproj": {
+                "projectPath": "D:\\dev\\github\\ecomms\\ECOMMS_Entity\\ECOMMS_Entity.csproj"
               }
             }
           }
@@ -313,7 +338,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

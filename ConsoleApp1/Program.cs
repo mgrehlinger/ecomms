@@ -239,7 +239,7 @@ namespace ConsoleApp1
             #region create a manager
             Manager enterpriseManager = new Manager(new ClientFactory());
 
-            enterpriseManager.connect(@"nats://192.168.86.30:4222");
+            enterpriseManager.connect(@"nats://192.168.86.31:7222");
             enterpriseManager.init();
 
             //observe the enterprise manager

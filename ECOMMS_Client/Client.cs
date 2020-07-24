@@ -168,7 +168,14 @@ namespace ECOMMS_Client
                 switch (s)
                 {
                     default:
-                        subType = (SubType)Enum.Parse(typeof(SubType), s);
+                        try
+                        {
+                            subType = (SubType)Enum.Parse(typeof(SubType), s);
+                        }
+                        catch (Exception e)
+                        {
+                            Console.WriteLine(e.Message);
+                        }
                         break;
                 }
 
@@ -268,9 +275,15 @@ namespace ECOMMS_Client
 
         public virtual void statusReceived(string name, byte[] data)
         {
-            //make sure that overrides call through base class
-            foreach (var listener in _statusListners)
+            Action<string, byte[]>[] listeners = new Action<string, byte[]>[_statusListners.Count];
+
+            _statusListners.CopyTo(listeners, 0);
+            foreach (Action<string, byte[]> listener in listeners)
                 listener(name, data);
+
+            //make sure that overrides call through base class
+            //foreach (var listener in _statusListners)
+            //    listener(name, data);
         }
 
         public void doGet(string what, Action<string> callback)
