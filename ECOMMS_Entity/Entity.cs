@@ -170,6 +170,7 @@ namespace ECOMMS_Entity
     {
         string server { get; }
         bool connect(string natsip = null);
+        bool IsConnected { get; } // are we connected to a broker?
         string request(string subject, string payload);
         byte[] request(string subject, byte[] payload);
         void request(string subject, string payload, Action<string> action);
@@ -222,6 +223,13 @@ namespace ECOMMS_Entity
             name = aname;
         }
         #endregion
+
+		// Are we connected to the nats broker?
+        public bool IsConnected
+            {
+                get { return (_connection != null) && !_connection.IsClosed(); }
+            }
+
 
         public void removeAllObservers()
         {

@@ -255,7 +255,7 @@ namespace ECOMMS_Client
                     //heartbeats are coming every 3 seconds
                     //go offline if we dont see one in 4.5
                     
-                    Console.WriteLine(heartbeat + ":" + watch.ElapsedMilliseconds);
+                    Console.WriteLine( "...got heartbeat: " + heartbeat + ":" + watch.ElapsedMilliseconds);
 
                     if (watch.ElapsedMilliseconds > 4500)
                     {

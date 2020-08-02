@@ -125,6 +125,7 @@ namespace ECOMMS_Participant
 
         public void replyTo(Msg message, string payload)
         {
+            Console.WriteLine("  ...replyTo(" + message.Subject + ", " + payload + ")");
             publish(message.Reply, payload);
         }
 
@@ -139,7 +140,11 @@ namespace ECOMMS_Participant
         /// <param name="anEventString"></param>
         public void raise(string anEventString)
         {
-            publish(id + ".event", anEventString);
+            if ( IsConnected)
+            {
+                Console.WriteLine("...raise: " + anEventString);
+                publish(id + ".event", anEventString);
+            }
         }
 
         /// <summary>
